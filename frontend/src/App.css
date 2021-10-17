@@ -1,0 +1,100 @@
+body {
+  background-image: url('https://cdn1.goibibo.com/voy_ing/t_fs/14d01418f6d511e9bc890242ac110006.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.logo {
+  max-width: 6rem;
+  max-height: 5rem;
+  border-radius: 50%;
+}
+.pl {
+  padding-left: 0;
+}
+.imgStyle {
+  width: 15rem;
+  height: 14rem;
+}
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ left:0;
+ top:0;
+ right: 0;
+ background: black;
+ color: white;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content_img:hover{
+ cursor: pointer;
+}
+.extra-padding {
+  max-width: 1030px;
+  margin: auto;
+}
+.fl {
+  display: flex;
+justify-content: center;
+} 
+.space-text {
+  text-align: justify;
+}
+.space-img {
+  display: flex;
+  justify-content:center; 
+  margin-bottom: .5rem;
+  max-height: 10rem;
+}
+.logo_name {
+  font-family: fangsong;
+}
+.content_img:hover div{
+  padding:3rem;
+ visibility: visible;
+ opacity: 0.7; 
+}
+.content_img{
+ position: relative;
+ float: left;
+}
+.invis {
+  visibility: hidden
+}
+.fltrgt {
+  float: right;
+}
+.form-box{
+  background-color: white;
+  margin:auto;
+}
+
+.foot {
+  background-color: black;
+  color:white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+
+@media screen and (max-width: 748px) {
+  .pl {
+    display: flex; 
+    justify-content: center;
+  }
+  .form-box {
+    width: 90%;
+  }
+}
