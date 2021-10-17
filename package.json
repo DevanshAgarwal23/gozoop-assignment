@@ -9,7 +9,7 @@
     "server": "node server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prifix frontend && npm  build --prifex frontend"
+    "heroku-postbuild": "npm install --prefix frontend && npm build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
